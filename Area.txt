@@ -1,0 +1,29 @@
+//Write a C program to calculate the Area of two rectangles and print the length and breadth of the rectangle whose   Area is greater.
+	Input format: length and breadth of two rectangles respectively.
+	output: length and breadth of rectangle whose area is greater.
+     
+#include<stdio.h>
+int main()
+{
+int l1,l2,b1,b2,area1,area2;
+printf("Enter length of frst rectangle\n");
+scanf("%d",&l1);
+printf("Enter breadth of first rectangle\n");
+scanf("%d",&b1);
+area1 = l1*b1;
+printf("%d",area1);
+printf("Enter length of second rectangle\n");
+scanf("%d",&l2);
+printf("Enter breadth of second rectangle\n");
+scanf("%d",&b2);
+area2 = b1*b2;
+printf("%d",area1);
+if(area1>area2)
+{
+	printf("%d  Area 1",area1);
+}
+else 
+{
+   printf("%d Area 2",area2);	
+}
+}
